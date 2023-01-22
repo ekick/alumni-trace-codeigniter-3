@@ -1,17 +1,17 @@
 # alumni-trace-codeigniter-3
-This repository contains my side project about the website for alumni of Gorontalo City Vocational High School 1, built with PHP languange and codeigniter 3 framework
+Repository ini berisi proyek sampingan untuk mendata para alumni SMK Negeri 1 Kota Gorontalo, dibuat dengan bahasa PHP dan framework codeigniter 3.
 
 # Menjalankan Proyek
 
-Lakukan instalasi semua depedencies yang dibutuhkan dengan composer. Ketik
-perintah berikut pada root direktori project.
+Lakukan instalasi semua depedencies yang dibutuhkan dengan menggunakan composer. Ketik
+perintah berikut pada direktori project.
 
 ```bash
 composer install
 ```
 
-Buat database di Phpmyadmin dan ubah konfigurasi database di `application/config/database.php`,
-Import database db_alumni_smk pada database yang telah dibuat.
+Buat database melalui phpmyadmin atau command line MySQL/MariaDB dan ubah konfigurasi database di `application/config/database.php`,
+import database db_alumni_smk pada database yang telah dibuat.
 
 ```php
 $active_group = 'default';
